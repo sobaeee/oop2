@@ -15,7 +15,7 @@ public class FileException {
 				fis = new FileInputStream(file);
 
 			while ((data = fis.read()) != -1) {
-							//firc.read => 1,2,3,4 한글자씩 읽어주겠다.          != -1  => -1 더이상 내보낼 숫자가 없을때 돌려보낸다. 
+							//fis.read => 1,2,3,4 한글자씩 읽어주겠다.          != -1  => -1 더이상 내보낼 숫자가 없을때 돌려보낸다. 
 				System.out.println((char) data);
 			}
 			
