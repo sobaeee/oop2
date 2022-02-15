@@ -28,6 +28,9 @@ public class StringExam {
 		System.out.println(msg.startsWith("a"));
 		System.out.println("-------------------------------");
 		
+		String msg1 = "moon";
+		System.out.println(msg1.endsWith("n"));
+		System.out.println("-------------------------------");
 		
 		//isEmpty() //문자열의 길이가 0인 경우에, true를 리턴합니다.
 		String isEmpty = "";
