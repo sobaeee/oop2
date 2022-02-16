@@ -10,7 +10,7 @@ public class PrintTimeZoneID {
 		//Asia/Seoul
 		TimeZone timeZone = TimeZone.getTimeZone("America/Los_Angeles");
 		Calendar now = Calendar.getInstance(timeZone);
-		System.out.println(now.get(Calendar.HOUR)); //Calender.Year 대신 1을 넣으면 2022가 뜬다. 
+		System.out.println(now.get(Calendar.HOUR)); //Calender.Year의 Year 대신 1을 넣으면 2022가 뜬다. 
 		String [] ids = TimeZone.getAvailableIDs();
 		for(String id : ids) {
 			//System.out.println(id);
